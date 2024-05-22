@@ -8,6 +8,7 @@ import { Header } from '../header';
 import { Footer } from '../footer';
 import { ThemeTogglerButton } from '../Theme-toggler-button';
 import { ThemeContext } from '../../contexts/theme-context';
+import btn_home from '../../assets/images/btn-home.png';
 
 const PokemonDetailsCard = () => {
   const [details, setDetails] = useState([]);
@@ -43,10 +44,7 @@ const PokemonDetailsCard = () => {
         <ThemeTogglerButton />
         <div className="container-btn-home">
           <Link to={'/'}>
-            <img
-              src="../../../src/assets/images/btn-home.png"
-              alt="botao retornar a home"
-            />
+            <img src={btn_home} alt="botao retornar a home" />
           </Link>
         </div>
         <div className="details">
