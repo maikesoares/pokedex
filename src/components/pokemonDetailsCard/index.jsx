@@ -43,7 +43,10 @@ const PokemonDetailsCard = () => {
         <ThemeTogglerButton />
         <div className="container-btn-home">
           <Link to={'/'}>
-            <img src="../../images/btn-home.png" alt="botao retornar a home" />
+            <img
+              src="../../../src/images/btn-home.png"
+              alt="botao retornar a home"
+            />
           </Link>
         </div>
         <div className="details">
