@@ -7,7 +7,7 @@ const Header = () => {
         <nav>
           <Link to={`/`}>
             <img
-              src="../../src/assets/images/logo-pokemon.png"
+              src="../../../src/assets/images/logo-pokemon.png"
               alt="logo pokemon"
             />
           </Link>
