@@ -6,7 +6,7 @@ const Header = () => {
       <header className="header">
         <nav>
           <Link to={`/`}>
-            <img src="../src/images/logo-pokemon.png" alt="logo pokemon" />
+            <img src="../../src/images/logo-pokemon.png" alt="logo pokemon" />
           </Link>
         </nav>
         <div className="circulo-externo">
