@@ -47,7 +47,7 @@ alternar de cor entre tema claro e tema escuro (light/dark).
 
 Confira o Layout do projeto:
 
-<img src="./src/images/projeto-pokedex.gif" alt="Projeto Pokedex">
+<img src="./src/assets/images/projeto-pokedex.gif" alt="Projeto Pokedex">
 
 # Tecnologias utilizadas:
 
