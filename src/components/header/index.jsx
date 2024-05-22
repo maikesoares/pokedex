@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import logo from '../../assets/images/logo-pokemon.png';
 
 const Header = () => {
   return (
@@ -6,10 +7,7 @@ const Header = () => {
       <header className="header">
         <nav>
           <Link to={`/`}>
-            <img
-              src="../../../src/assets/images/logo-pokemon.png"
-              alt="logo pokemon"
-            />
+            <img src={logo} alt="logo pokemon" />
           </Link>
         </nav>
         <div className="circulo-externo">

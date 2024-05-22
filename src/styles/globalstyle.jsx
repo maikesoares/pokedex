@@ -23,7 +23,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items:center;
-  background: url('../src/images/fundo.png') fixed no-repeat center;
+  background: url('../src/assets/images/fundo.png') fixed no-repeat center;
 }
 
 // HEADER 
@@ -193,7 +193,7 @@ body {
   justify-content: center;
   flex-direction: column;
   padding-top: 30px;
-  background: url('../../src/images/fundo.png') center fixed;
+  background: url('../../src/assets/images/fundo.png') center fixed;
   background-size: cover;
 }
 
